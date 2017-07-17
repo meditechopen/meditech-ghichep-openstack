@@ -44,7 +44,7 @@
 	```sh
   echo "Setup IP  ens3"
   nmcli c modify ens3 ipv4.addresses 192.168.100.99/24
-  nmcli c modify ens3 ipv4.gateway 192.168.99.1
+  nmcli c modify ens3 ipv4.gateway 192.168.100.1
   nmcli c modify ens3 ipv4.dns 8.8.8.8
   nmcli c modify ens3 ipv4.method manual
   nmcli con mod ens3 connection.autoconnect yes
