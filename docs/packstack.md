@@ -269,22 +269,26 @@ Lưu ý: Sau khi tạo private_network sẽ hiện ra một bảng có chứa đ
  
 - Ping tới ip của dải provider để kiểm tra xem đã gán được interface hay chưa
 
-    ```sh
+```sh
+
 [root@controller ~(keystone_admin)]# ping 192.168.100.89
 PING 192.168.100.89 (192.168.100.89) 56(84) bytes of data.
 64 bytes from 192.168.100.89: icmp_seq=1 ttl=64 time=0.272 ms
 64 bytes from 192.168.100.89: icmp_seq=2 ttl=64 time=0.044 ms
 64 bytes from 192.168.100.89: icmp_seq=3 ttl=64 time=0.041 ms
 64 bytes from 192.168.100.89: icmp_seq=4 ttl=64 time=0.050 ms
-	```
+
+```
 	
 - Mở các rule cần thiết cho máy ảo (trong thực tế nên mở các rule cần thiết, tránh mở tất cả các port như hướng dẫn này)
   
-  ```sh
+ ```sh
+ 
   openstack security group rule create --proto icmp default
   openstack security group rule create --proto tcp --dst-port 1:65535 default
   openstack security group rule create --proto udp --dst-port 1:65535 default
-  ```
+ 
+ ```
 - Trước khi vào dashboard để tạo máy ảo ta cần chỉnh sửa một vài lỗi sau
 
 	+ Không nhận metadata:
@@ -299,7 +303,7 @@ PING 192.168.100.89 (192.168.100.89) 56(84) bytes of data.
 	
 	Khởi động lại các service của neutron trên Controller node.
 	
-	```sh
+```sh
 
 [root@controller ~(keystone_admin)]# neutron agent-list
 +--------------------------------------+--------------------+------------+-------------------+-------+----------------+---------------------------+
