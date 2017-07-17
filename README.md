@@ -14,7 +14,7 @@
 #### Phần 2: Thực hành 
 
 [1. Hướng dẫn cài đặt](#1) <a name="1"></a>
-		- [CentOS7](docs/packstack.md)
+		- [Hướng dẫn sử dụng packstack cài đặt openstack newton trên centos7](docs/packstack.md)
 
 
 
