@@ -319,7 +319,7 @@ PING 192.168.100.89 (192.168.100.89) 56(84) bytes of data.
 
 ```
 	
-	+ Lỗi không kết nối được tới console, gặp phải khi chạy máy ảo với nhiều node compute
+	Lỗi không kết nối được tới console, gặp phải khi chạy máy ảo với nhiều node compute
 	
 	Thay hostname trong dòng dưới ở file /etc/nova/nova.conf bằng IP của chính máy compute đó.
 	
