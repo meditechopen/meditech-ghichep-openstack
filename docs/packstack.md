@@ -1,4 +1,4 @@
-# Hương dẫn cài đặt OpenStack Newton bằng Packstack trên CENTOS 7
+# Hướng dẫn cài đặt OpenStack Newton bằng Packstack trên CENTOS 7
 
 
 ## 1. Các bước chuẩn bị
@@ -228,7 +228,7 @@ packstack --allinone \
 - Tạo subnet trong network public 
   ```sh
   neutron subnet-create --name public_subnet \
-  --enable_dhcp=True --dns-nameserver 8.8.8.8\
+  --enable_dhcp=True --dns-nameserver 8.8.8.8 \ 
   --allocation-pool=start=192.168.100.80,end=192.168.100.90 \
   --gateway=192.168.100.1 external_network 192.168.100.0/24
   ```
