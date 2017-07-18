@@ -9,12 +9,9 @@
 
 ### Nội dung
 
-#### Phần 1: Lý thuyết
+#### Cài đặt
 
-#### Phần 2: Thực hành 
-
-[1. Hướng dẫn cài đặt](#1) <a name="1"></a>
-		- [Hướng dẫn sử dụng packstack cài đặt openstack newton trên centos7](docs/packstack.md)
+- [1. Hướng dẫn sử dụng packstack cài đặt openstack newton trên centos7](docs/packstack.md)
 
 
 
