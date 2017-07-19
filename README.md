@@ -19,34 +19,34 @@
 
 ### Ghi chép keystone
 
-- [Tổng quan keystone](./docs/Fundamental-keystone.md)
-- [Giải thích file cấu hình cơ bản](./docs/configuration-file.md)
-- [Giải thích về token trong keystone](./docs/token-format.md)
+- [Tổng quan keystone](./docs/Keystone/Fundamental-keystone.md)
+- [Giải thích file cấu hình cơ bản](./Keystone/docs/configuration-file.md)
+- [Giải thích về token trong keystone](./Keystone/docs/token-format.md)
 
 ### Lab với keystone
 
-- [Lab keystone cơ bản](./docs/using-keystone.md)
-- [File policy.json và định nghĩa một role](./docs/file-policy.json.md)
+- [Lab keystone cơ bản](./docs/Keystone/using-keystone.md)
+- [File policy.json và định nghĩa một role](./docs/Keystone/file-policy.json.md)
 
 ## Glance
 
 ### Ghi chép Glance
 
-- [Tổng quan glance](./docs/glance-overview.md)
-- [Giải thích file cấu hình cơ bản](./docs/file-config-glance.md)
+- [Tổng quan glance](./docs/Glance/glance-overview.md)
+- [Giải thích file cấu hình cơ bản](./docs/Glance/file-config-glance.md)
 
 ### Lab với glance
 
-- [Lab glance cơ bản](./docs/manage-glance.md)
+- [Lab glance cơ bản](./docs/Glance/manage-glance.md)
 
 ## Neutron
 
 ### Ghi chép Neutron
 
-- [Tổng quan neutron](./docs/OpenStack-Networking-basic.md)
-- [Tổng quan OpenvSwitch](./docs/openvswitch.md)
-- [Tổng quan bonding](./docs/bonding.md)
-- [Kiến trúc và traffic flow trong neutron](./docs/neutron-openvswitch.md)
+- [Tổng quan neutron](./docs/Neutron/OpenStack-Networking-basic.md)
+- [Tổng quan OpenvSwitch](./docs/Neutron/openvswitch.md)
+- [Tổng quan bonding](./docs/Neutron/bonding.md)
+- [Kiến trúc và traffic flow trong neutron](./docs/Neutron/neutron-openvswitch.md)
 
 ### Lab với neutron
 
@@ -56,15 +56,15 @@
 
 ### Ghi chép nova
 
-- [Tổng quan nova](./docs/nova-overview.md)
-- [Giải thích file cấu hình cơ bản](./docs/file-config-nova.md)
-- [Workflow tạo máy ảo trong nova](./docs/request-flow-for-provisioning-instance.md)
-- [Giải thích cơ chế filter và weight của nova-schedule](./docs/nova-scheduler.md)
+- [Tổng quan nova](./docs/Nova/nova-overview.md)
+- [Giải thích file cấu hình cơ bản](./docs/Nova/file-config-nova.md)
+- [Workflow tạo máy ảo trong nova](./docs/Nova/request-flow-for-provisioning-instance.md)
+- [Giải thích cơ chế filter và weight của nova-schedule](./docs/Nova/nova-scheduler.md)
 
 ### Lab với nova
 
-- [Lab nova cơ bản](./docs/manage-nova.md)
+- [Lab nova cơ bản](./docs/Nova/manage-nova.md)
 - Migrate máy ảo
- 
+
 
 (C) MediTech JSC,. - https://meditech.vn
