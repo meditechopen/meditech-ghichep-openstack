@@ -82,7 +82,7 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 
 #### 1.2 Tải IMAGE về Server
 
-Chúng ta sử dụng các lệnh quen thuộc như `wget`, `url`,... để tải file IMAGE về server. Ví dụ này, tôi sẽ sử dụng IMAGE `cirros`.
+Chúng ta sử dụng các lệnh quen thuộc như `wget`, `curl`,... để tải file IMAGE về server. Ví dụ này, tôi sẽ sử dụng IMAGE `cirros`.
 
 Dùng WGET:
 
