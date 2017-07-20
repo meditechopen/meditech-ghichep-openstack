@@ -3,14 +3,18 @@
 ### Menu
 
 - [1. Tải Images](#1)
-	- [1.1 Từ Internet](#11)
+	- [1.1 Các trang cung cấp Image](#11)
+	- [1.2 Tải trực tiếp từ]
 	- [1.2 Từ máy tính](#12)
 - [2. Upload images vào OpenStack](#2)
 	- [2.1 Bằng câu lệnh](#21)
 	- [2.2 Trên Dashboard](#22)
 	
 <a name="1" />
-1. Tải Images
+### 1. Tải Images
+
+<a name="11" />
+#### 1.1 Các trang cung cấp Image
 
 Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtain-images.html) có giới thiệu hàng loạt các trang cung cấp Image cho cloud. Sau đây là những OS được phổ biến hiện nay:
 
@@ -73,16 +77,36 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 	Trong Image cloud, sử dụng user mặc định là `cloud-user`.
 	
 <a name="11" />
-1.1 Từ Internet
+#### 1.1 Từ Internet
 
 <a name="12" />
-1.2 Từ máy tính
+#### 1.2 Từ máy tính
 
 <a name="2" />
-2. Upload images vào OpenStack
+### 2. Upload images vào OpenStack
 
 <a name="21" />
-2.1 Bằng câu lệnh
+#### 2.1 Bằng câu lệnh
 
 <a name="22" />
-2.2 Trên Dashboard
+#### 2.2 Trên Dashboard
+
+Đăng nhập vào Dashbroad, chúng ta tìm đến **Project -> Compute -> Images**
+
+<img src="../image/admin-login.png" />
+
+Điền thông tin cho Images
+
+<img src="../image/admin-img-1.png" />
+
+<img src="../image/admin-img-2.png" />
+
+- **Giải thích:**
+	- `1` - **Name**: Tên của IMAGE
+	- `2` - **Description**: Mô tả IMAGE
+	- `3` - **Image Source**: Chọn nguồn lưu trữ file. `Image file`: Chọn từ máy remote
+	- `4` - **Image File**: Chọn file tải lên từ máy tính của bạn
+	- `5` - **Format**: Định dạng máy ảo. Nên chọn: QCOW2
+	- `6`: Cài đặt cấu hình tối thiểu cho IMAGE như `Arch` - CPU (x86_64,...); RAM; DISK
+	- `7` Chia sẻ IMAGE với project, domain khác hay không
+	
