@@ -4,16 +4,18 @@
 
 - [1. Tải Images](#1)
 	- [1.1 Các trang cung cấp Image](#11)
-	- [1.2 Tải trực tiếp từ]
+	- [1.2 Tải trực tiếp từ](#11)
 	- [1.2 Từ máy tính](#12)
 - [2. Upload images vào OpenStack](#2)
 	- [2.1 Bằng câu lệnh](#21)
 	- [2.2 Trên Dashboard](#22)
 	
 <a name="1" />
+
 ### 1. Tải Images
 
 <a name="11" />
+
 #### 1.1 Các trang cung cấp Image
 
 Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtain-images.html) có giới thiệu hàng loạt các trang cung cấp Image cho cloud. Sau đây là những OS được phổ biến hiện nay:
@@ -77,18 +79,23 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 	Trong Image cloud, sử dụng user mặc định là `cloud-user`.
 	
 <a name="11" />
+
 #### 1.1 Từ Internet
 
 <a name="12" />
+
 #### 1.2 Từ máy tính
 
 <a name="2" />
+
 ### 2. Upload images vào OpenStack
 
 <a name="21" />
+
 #### 2.1 Bằng câu lệnh
 
 <a name="22" />
+
 #### 2.2 Trên Dashboard
 
 Đăng nhập vào Dashbroad, chúng ta tìm đến **Project -> Compute -> Images**
@@ -99,7 +106,9 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 
 <img src="../image/admin-img-1.png" />
 
-<img src="../image/admin-img-2.png" />
+<img src="../image/admin-img-2-1.png" />
+
+<img src="../image/admin-img-2-2.png" />
 
 - **Giải thích:**
 	- `1` - **Name**: Tên của IMAGE
