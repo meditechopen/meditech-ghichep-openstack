@@ -78,7 +78,10 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 	
 	Trong Image cloud, sử dụng user mặc định là `cloud-user`.
 	
-<a name="11" />
+STT|Tên OS-Cloud|Link tải|User mặc định| Ghi chú|
+--|--|--|--|--|--|
+1| CentOS| CentOS 7</br>CentOS 6| centos| |
+<a name="12" />
 
 #### 1.2 Tải IMAGE về Server
 
