@@ -94,19 +94,44 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 
 #### 2.1 Bằng câu lệnh
 
+Chúng ta chạy lệnh sau để khai báo biến môi trường
+
+```
+source /root/keystonerc_admin
+```
+
+Sau khi tải IMAGE, chúng ta đưa IMAGE vào máy ảo bằng lệnh:
+
+```
+openstack image create --file cirros-0.3.5-x86_64-disk.img --disk-format qcow2 --container-format bare --public cirros-hoangdh
+```
+
+<img src="../image/admin-img-cli-ci.png" />
+
+Kiểm tra lại thông tin:
+
+```
+openstack image list
+```
+<img src="../image/admin-img-cli-cl.png" />
+
 <a name="22" />
 
 #### 2.2 Trên Dashboard
 
-Đăng nhập vào Dashbroad, chúng ta tìm đến **Project -> Compute -> Images**
+- **Bước 1:** Đăng nhập vào Dashbroad
+
+Chúng ta tìm đến **Project -> Compute -> Images**
 
 <img src="../image/admin-login.png" />
 
-Điền thông tin cho Images
+- **Bước 2:**  Điền thông tin cho Images
 
 <img src="../image/admin-img-1.png" />
 
 <img src="../image/admin-img-2-1.png" />
+
+- **Bước 3:** Upload IMAGE
 
 <img src="../image/admin-img-2-2.png" />
 
@@ -118,4 +143,7 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 	- `5` - **Format**: Định dạng máy ảo. Nên chọn: QCOW2
 	- `6`: Cài đặt cấu hình tối thiểu cho IMAGE như `Arch` - CPU (x86_64,...); RAM; DISK
 	- `7` Chia sẻ IMAGE với project, domain khác hay không
-	
+
+Sau khi Upload xong, chúng ta nhìn trên Dashboard đã có một IMAGE mới.
+
+<img src="../image/admin-img-3.png" />
