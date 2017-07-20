@@ -575,7 +575,7 @@ Chỉnh sửa file cấu hình keystone
 ``` sh
 [database]
 ...
-connection = mysql+pymysql://keystone:Welcome123@controller/keystone
+connection = mysql+pymysql://keystone:Welcome123@172.16.69.238/keystone
 
 [token]
 ...
@@ -829,7 +829,7 @@ Chỉnh sửa file config glance-api
 
 ``` sh
 [database]
-connection = mysql+pymysql://glance:GLANCE_DBPASS@controller/glance
+connection = mysql+pymysql://glance:Welcome123@172.16.69.238/glance
 
 [keystone_authtoken]
 auth_uri = http://172.16.69.238:5000
@@ -859,7 +859,7 @@ Chỉnh sửa file config glance-registry
 
 ``` sh
 [database]
-connection = mysql+pymysql://glance:Welcome123@controller/glance
+connection = mysql+pymysql://glance:Welcome123@172.16.69.238/glance
 
 [keystone_authtoken]
 auth_uri = http://172.16.69.238:5000
@@ -965,7 +965,7 @@ Chỉnh sửa file cấu hình `/etc/nova/nova.conf`
 [DEFAULT]
 auth_strategy = keystone
 enabled_apis = osapi_compute,metadata
-transport_url = rabbit://openstack:Welcome123@controller
+transport_url = rabbit://openstack:Welcome123@172.16.69.238
 my_ip = 172.16.69.238
 use_neutron = True
 firewall_driver = nova.virt.firewall.NoopFirewallDriver
@@ -1590,7 +1590,7 @@ Sao lưu file cấu hình
 Chỉnh sửa file cấu hình
 
 ``` sh
-OPENSTACK_HOST = "controller"
+OPENSTACK_HOST = "172.16.69.238"
 
 ALLOWED_HOSTS = ['*', ]
 
@@ -1599,7 +1599,7 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 CACHES = {
     'default': {
          'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-         'LOCATION': 'controller:11211',
+         'LOCATION': '172.16.69.239:11211',
     }
 }
 
@@ -1780,7 +1780,7 @@ Chỉnh sửa file cấu hình
 ``` sh
 [DEFAULT]
 auth_strategy = keystone
-transport_url = rabbit://openstack:Welcome123@controller
+transport_url = rabbit://openstack:Welcome123@172.16.69.238
 my_ip = 172.16.69.239
 enabled_backends = lvm
 glance_api_servers = http://172.16.69.238:9292
