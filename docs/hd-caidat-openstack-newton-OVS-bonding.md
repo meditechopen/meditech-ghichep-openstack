@@ -1030,6 +1030,7 @@ Chỉnh sửa file cấu hình
 [DEFAULT]
 auth_strategy = keystone
 enabled_apis = osapi_compute,metadata
+transport_url = rabbit://openstack:Welcome123@172.16.69.238
 my_ip = 172.16.69.239
 use_neutron = True
 firewall_driver = nova.virt.firewall.NoopFirewallDriver

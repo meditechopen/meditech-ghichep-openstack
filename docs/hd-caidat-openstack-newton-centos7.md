@@ -812,6 +812,7 @@ Chỉnh sửa file cấu hình
 ``` sh
 [DEFAULT]
 auth_strategy = keystone
+transport_url = rabbit://openstack:Welcome123@192.168.100.197
 enabled_apis = osapi_compute,metadata
 my_ip = 192.168.100.198
 use_neutron = True
