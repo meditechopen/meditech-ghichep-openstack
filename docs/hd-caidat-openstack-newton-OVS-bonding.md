@@ -746,7 +746,7 @@ Password:
 Tạo các file source script `admin-rc` và `demo-rc`
 
 ``` sh
-vi admin-rc
+vi admin-openrc
 
 export OS_PROJECT_DOMAIN_NAME=Default
 export OS_USER_DOMAIN_NAME=Default
@@ -774,7 +774,7 @@ export OS_IMAGE_API_VERSION=2
 Kiểm tra script
 
 ``` sh
-. admin-rc
+. admin-openrc
 
 openstack token issue
 ```
@@ -797,7 +797,7 @@ exit
 Tạo glance user
 
 ``` sh
-. admin-rc
+. admin-openrc
 openstack user create glance --domain default --password Welcome123
 ```
 
