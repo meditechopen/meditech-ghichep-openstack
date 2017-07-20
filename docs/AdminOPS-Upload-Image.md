@@ -77,11 +77,6 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 	**Chú ý**:
 	
 	Trong Image cloud, sử dụng user mặc định là `cloud-user`.
-	
-STT|Tên OS-Cloud|Link tải|User mặc định| Ghi chú|
---|--|--|--|--|--|
-1| CentOS| CentOS 7</br>CentOS 6| centos| |
-
 
 <a name="12" />
 
