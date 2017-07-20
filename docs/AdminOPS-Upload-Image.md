@@ -24,7 +24,7 @@ Tại trang chủ của [OpenStack](https://docs.openstack.org/image-guide/obtai
 
 - CirrOS - Image dùng để test
 
-OS Cloud này dùng để test hệ thống cloud với đặc điểm là nhỏ gọn và dễ dàng sử dụng. Phiên bản mới nhất của CirrOS là [0.3.5](http://download.cirros-cloud.net/0.3.5/cirros-0.3.5-x86_64-disk.img) và [toàn bộ các phiên bản](http://download.cirros-cloud.net/).
+	OS Cloud này dùng để test hệ thống cloud với đặc điểm là nhỏ gọn và dễ dàng sử dụng. Phiên bản mới nhất của CirrOS là [0.3.5](http://download.cirros-cloud.net/0.3.5/cirros-0.3.5-x86_64-disk.img) và [toàn bộ các phiên bản](http://download.cirros-cloud.net/).
 
 	**Chú ý**:
 	
