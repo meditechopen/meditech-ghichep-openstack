@@ -6,6 +6,7 @@
 - [2. Tạo máy ảo từ Snapshot](#2)
 
 <a name="1" />
+
 ### 1. Snapshot máy ảo
 
 - **Bước 1:** Đăng nhập vào hệ thống
@@ -24,8 +25,8 @@
 
 ![test](/image/admin-snapshot-3.png)
 
-
 <a name="1" />
+
 ### 2. Tạo máy ảo từ Snapshot
 
 - **Bước 1:** Đăng nhập vào hệ thống
