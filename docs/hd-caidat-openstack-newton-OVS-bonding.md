@@ -1072,6 +1072,7 @@ Chỉnh sửa lại section `[libvirt]` trong file `/etc/nova/nova.conf`
 ``` sh
 [libvirt]
 virt_type = qemu
+cpu_mode = none
 ```
 
 **Lưu ý:**
