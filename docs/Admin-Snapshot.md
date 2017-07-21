@@ -2,8 +2,8 @@
 
 ### Menu
 
-[1. Snapshot máy ảo](#1)
-[2. Tạo máy ảo từ Snapshot](#2)
+- [1. Snapshot máy ảo](#1)
+- [2. Tạo máy ảo từ Snapshot](#2)
 
 <a name="1" />
 ### 1. Snapshot máy ảo
