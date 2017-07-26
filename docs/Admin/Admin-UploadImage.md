@@ -196,4 +196,4 @@ Chúng ta tìm đến **Project -> Compute -> Images**
 
 Sau khi Upload xong, chúng ta nhìn trên Dashboard đã có một IMAGE mới.
 
-![ls-img](/image/admin-img-2-3.png)
+![ls-img](/image/admin-img-3.png)
