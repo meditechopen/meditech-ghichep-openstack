@@ -64,7 +64,7 @@
 ### Lab với nova
 
 - [Lab nova cơ bản](./docs/Nova/manage-nova.md)
-- [Migrate máy ảo](./docs/migrate.md)
+- [Migrate máy ảo](./docs/migration.md)
 
 
 (C) MediTech JSC,. - https://meditech.vn
