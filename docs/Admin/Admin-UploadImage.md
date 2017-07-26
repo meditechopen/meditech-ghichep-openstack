@@ -179,7 +179,7 @@ Chúng ta tìm đến **Project -> Compute -> Images**
 
 ![ls-img](/image/admin-img-1.png)
 
-![ls-img](/image/admin-img-2-1.png.png)
+![ls-img](/image/admin-img-2-1.png)
 
 - **Bước 3:** Upload IMAGE
 
@@ -196,4 +196,4 @@ Chúng ta tìm đến **Project -> Compute -> Images**
 
 Sau khi Upload xong, chúng ta nhìn trên Dashboard đã có một IMAGE mới.
 
-<img src="../image/admin-img-3.png" />
+![ls-img](/image/admin-img-2-3.png)
