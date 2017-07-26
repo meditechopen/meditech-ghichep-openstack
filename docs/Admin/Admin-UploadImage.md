@@ -104,7 +104,7 @@ Xem lại IMAGE đã tải về:
 ls -l 
 ```
 
-<img src="../image/admin-img-ls-img.png" />
+![ls-img](/image/admin-img-ls-img.png)
 
 <a name="13" />
 
@@ -145,8 +145,7 @@ cd /opt/
 
 openstack image create --file cirros-0.3.5-x86_64-disk.img --disk-format qcow2 --container-format bare --public cirros-hoangdh
 ```
-
-<img src="../image/admin-img-cli-ci.png" />
+![ls-img](/image/admin-img-cli-ci.png)
 
 - **Chú thích:**
 	- `--file`: Nhập IMAGE vào OpenStack dạng file có sẵn
@@ -161,7 +160,8 @@ openstack image create --file cirros-0.3.5-x86_64-disk.img --disk-format qcow2 -
 ```
 openstack image list
 ```
-<img src="../image/admin-img-cli-cl.png" />
+
+![ls-img](/image/admin-img-cli-cl.png)
 
 <a name="22" />
 
@@ -171,19 +171,19 @@ Trong một số trường hợp IMAGE nằm ở ngoài máy Remote và không m
 
 - **Bước 1:** Đăng nhập vào Dashboard
 
-<img src="../image/admin-login.png" />
+![ls-img](/image/admin-login.png)
 
 - **Bước 2:**  Điền thông tin cho Images
 
 Chúng ta tìm đến **Project -> Compute -> Images**
 
-<img src="../image/admin-img-1.png" />
+![ls-img](/image/admin-img-1.png)
 
-<img src="../image/admin-img-2-1.png" />
+![ls-img](/image/admin-img-2-1.png.png)
 
 - **Bước 3:** Upload IMAGE
 
-<img src="../image/admin-img-2-2.png" />
+![ls-img](/image/admin-img-2-2.png)
 
 - **Giải thích:**
 	- `1` - **Name**: Tên của IMAGE
