@@ -9,9 +9,8 @@
 
 ### Nội dung
 
-#### Cài đặt
-
-- [1. Hướng dẫn sử dụng packstack cài đặt openstack newton trên centos7](docs/packstack.md)
+ - [00. Hướng dẫn cài đặt openstack newton](docs/00.Setup-OpenStack/packstack.md)
+ - [01. Keystone](docs/01.Keystone)
 
 
 
