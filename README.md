@@ -65,6 +65,22 @@
 
 - [Lab nova cơ bản](./docs/Nova/manage-nova.md)
 - [Migrate máy ảo](./docs/migration.md)
+- [Evacuate máy ảo](./docs/evacuate.md)
 
+## Cinder
+
+### Ghi chép cinder
+
+-	[Tổng quan về Cinder](./docs/Cinder/tongquan-cinder.md)
+-	[Cinder WorkFlow](./docs/Cinder/cinder-workflow.md)
+-	[Giải thích file cấu hình Cinder](./docs/Cinder/cinder-config-explain.md)
+- [Cơ chế filter và weight của cinder-scheduler](./docs/Cinder/cinder-scheduler.md)
+
+### Lab với cinder
+
+-	[Cài đặt Cinder](./docs/Cinder/OPS-cinder.md)
+-	[Câu lệnh với Cinder](./docs/Cinder/cinder-cli.md)
+-	[Cinder với backend là GlusterFS](./docs/Cinder/cinder-glusterfs.md)
+- [Hướng dẫn cấu hình multiple Cinder và thực hiện tính năng migrate volume](./docs/Cinder/cinder.md)
 
 (C) MediTech JSC,. - https://meditech.vn
