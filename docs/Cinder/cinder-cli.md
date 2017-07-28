@@ -180,7 +180,7 @@ Volume snapshot khác với volume backup. Backup copy taofn bộ volume đượ
 
 ### 1.5 Migrate Volume
 
-Xem thêm [tại đây]()
+Xem thêm [tại đây](/docs/Cinder/cinder.md)
 
 ### 1.6 Volume Backup
 
