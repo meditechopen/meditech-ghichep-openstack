@@ -221,7 +221,7 @@ cinder service-list
 
  - Tại node Cinder, thêm 1 ổ cứng để tạo thêm LVM trên đó.
 
-  ![cinder1](/ManhDV/OpenStack/images/cinder-multi-lvm03.png)
+  ![cinder1](/images/cinder-multi-lvm03.png)
 
  - Tạo LVM physical volume /dev/sdb
 
