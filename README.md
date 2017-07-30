@@ -14,6 +14,9 @@
 - [1. Hướng dẫn cài đặt OpenStack Newton bằng Packstack trên CentOS 7](./docs/packstack.md)
 - [2. Hướng dẫn cài đặt OpenStack Newton trên CentOS 7 sử dụng Linux Bridge](./docs/hd-caidat-openstack-newton-centos7.md)
 - [3. Hướng dẫn cài đặt OpenStack Newton trên CentOS 7 sử dụng OVS và Bonding](./docs/hd-caidat-openstack-newton-OVS-bonding.md)
+=======
+ - [00. Hướng dẫn cài đặt openstack newton](docs/00.Setup-OpenStack/packstack.md)
+ - [01. Keystone](docs/01.Keystone)
 
 ## Keystone
 
