@@ -23,8 +23,9 @@
 ### Ghi chép keystone
 
 - [Tổng quan keystone](./docs/Keystone/Fundamental-keystone.md)
-- [Giải thích file cấu hình cơ bản](./Keystone/docs/configuration-file.md)
-- [Giải thích về token trong keystone](./Keystone/docs/token-format.md)
+- [Giải thích file cấu hình cơ bản](./docs/Keystone/configuration-file.md)
+- [Các lệnh cơ bản trong Keystone](./docs/Keystone/cli-keystone.md)
+- [Giải thích về token trong keystone](./docs/Keystone/token-format.md)
 
 ### Lab với keystone
 
@@ -37,6 +38,7 @@
 
 - [Tổng quan glance](./docs/Glance/glance-overview.md)
 - [Giải thích file cấu hình cơ bản](./docs/Glance/file-config-glance.md)
+- [Các lệnh cơ bản trong Glance](./docs/Glance/cli-glance.md)
 
 ### Lab với glance
 
@@ -50,10 +52,12 @@
 - [Tổng quan OpenvSwitch](./docs/Neutron/openvswitch.md)
 - [Tổng quan bonding](./docs/Neutron/bonding.md)
 - [Kiến trúc và traffic flow trong neutron](./docs/Neutron/neutron-openvswitch.md)
+- [Các lệnh cơ bản trong Neutron](./docs/Neutron/cli-neutron.md)
+- [Giải thích file cấu hình cơ bản](./docs/Neutron/file-config.md)
 
 ### Lab với neutron
 
-- Lab neutron cơ bản
+- [Lab neutron cơ bản](./docs/Neutron/manage-neutron.md)
 
 ## Nova
 
@@ -63,6 +67,7 @@
 - [Giải thích file cấu hình cơ bản](./docs/Nova/file-config-nova.md)
 - [Workflow tạo máy ảo trong nova](./docs/Nova/request-flow-for-provisioning-instance.md)
 - [Giải thích cơ chế filter và weight của nova-schedule](./docs/Nova/nova-scheduler.md)
+- [Các lệnh cơ bản trong Nova](./docs/Nova/cli-nova.md)
 
 ### Lab với nova
 
@@ -78,6 +83,7 @@
 -	[Cinder WorkFlow](./docs/Cinder/cinder-workflow.md)
 -	[Giải thích file cấu hình Cinder](./docs/Cinder/cinder-config-explain.md)
 - [Cơ chế filter và weight của cinder-scheduler](./docs/Cinder/cinder-scheduler.md)
+- [Các lệnh cơ bản trong Cinder](./docs/Cinder/cinder-cli.md)
 
 ### Lab với cinder
 
