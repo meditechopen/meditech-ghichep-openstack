@@ -65,19 +65,19 @@ Dưới đây là các hình minh họa tiến trình khi thực hiện migrate 
 
 - Reservation: Xác nhận host B có đủ tà nguyên để thực hiện migrate, tạo mới một máy ảo trên host B.
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate3.png?raw=true">
+<img src="/images/migrate3.png">
 
 - Iterative pre-copy : Bộ nhớ được di chuyển, máy ảo mới ở trạng thái suspend
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate5.png?raw=true">
+<img src="/images/migrate5.png">
 
 - Stop and copy : Suspend máy ảo và copy phần còn lại cũng như trạng thái của CPU.
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate6.png?raw=true">
+<img src="/images/migrate6.png">
 
 - Commitment : Host B trở thành primary host cho VM.
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate7.png?raw=true">
+<img src="/images/migrate7.png">
 
 <a name="compare"></a>
 ### 3. So sánh ưu nhược điểm giữa cold và live migrate
@@ -106,7 +106,7 @@ Dưới đây là các hình minh họa tiến trình khi thực hiện migrate 
 
 - Trong live-migrate, có 2 loại đó là True live migration và Block live migration. Hình dưới đây mô tả những loại storage mà 2 loại migration trên hỗ trợ:
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate2.png?raw=true">
+<img src="/images/migrate2.png">
 
 **Ngữ cảnh sử dụng:**
 
@@ -293,7 +293,7 @@ block_migration_flag=VIR_MIGRATE_UNDEFINE_SOURCE, VIR_MIGRATE_PEER2PEER, VIR_MIG
 
 Máy ảo sẽ chuyển sang trạng thái `MIGRATING`.
 
-<img src="https://github.com/thaonguyenvan/meditech-ghichep-openstack/blob/master/images/migrate4.png?raw=true">
+<img src="/images/migrate4.png">
 
 Sau một khoảng thời gian, máy ảo sẽ được migrate sang node compute mới.
 
