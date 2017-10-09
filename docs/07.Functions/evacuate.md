@@ -31,7 +31,7 @@ Lưu ý rằng bạn chỉ có thể evacuate máy ảo khi host đã bị tắt
 
 **Workflow khi evacuate máy ảo**
 
-![evacuate](/meditech-ghichep-openstack/images/evacuate3.png)
+<img src="meditech-ghichep-openstack/images/evacuate1.png">
 
 1. User gửi yêu cầu evacuate máy ảo tới Nova API
 2. Nova API tiếp nhận yêu cầu, kiểm tra các tùy chọn
