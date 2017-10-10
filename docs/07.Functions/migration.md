@@ -61,23 +61,23 @@ Dưới đây là các hình minh họa tiến trình khi thực hiện migrate 
 
 - Pre-migration: VM trên host A đang chạy, host B được lựa chọn bởi người dùng hoặc scheduler.
 
-<img src="../images/migrate1.png">
+<img src="/images/migrate1.png">
 
 - Reservation: Xác nhận host B có đủ tà nguyên để thực hiện migrate, tạo mới một máy ảo trên host B.
 
-<img src="../images/migrate3.png">
+<img src="/images/migrate3.png">
 
 - Iterative pre-copy : Bộ nhớ được di chuyển, máy ảo mới ở trạng thái suspend
 
-<img src="../images/migrate5.png">
+<img src="/images/migrate5.png">
 
 - Stop and copy : Suspend máy ảo và copy phần còn lại cũng như trạng thái của CPU.
 
-<img src="../images/migrate6.png">
+<img src="/images/migrate6.png">
 
 - Commitment : Host B trở thành primary host cho VM.
 
-<img src="../images/migrate7.png">
+<img src="/images/migrate7.png">
 
 <a name="compare"></a>
 ### 3. So sánh ưu nhược điểm giữa cold và live migrate
@@ -106,7 +106,7 @@ Dưới đây là các hình minh họa tiến trình khi thực hiện migrate 
 
 - Trong live-migrate, có 2 loại đó là True live migration và Block live migration. Hình dưới đây mô tả những loại storage mà 2 loại migration trên hỗ trợ:
 
-<img src="../images/migrate2.png">
+<img src="/images/migrate2.png">
 
 **Ngữ cảnh sử dụng:**
 
@@ -144,14 +144,12 @@ scp /var/lib/nova/.ssh/id_rsa.pub computeNodeAddress:~/
 - Trên node đích, thay đổi quyền của key pair cho user nova và add key pair đó vào SSH.
 
 ``` sh
-# chown nova:nova id_rsa
-# chown nova:nova id_rsa.pub
-# su nova
 $ mkdir -p /var/lib/nova/.ssh
 $ cp id_rsa /var/lib/nova/.ssh/
 $ cat id_rsa.pub >> /var/lib/nova/.ssh/authorized_keys
+$ chown nova:nova /var/lib/nova/.ssh/authorized_keys
+$ chown nova:nova /var/lib/nova/.ssh/id_rsa
 $ echo 'StrictHostKeyChecking no' >> /var/lib/nova/.ssh/config
-$ exit
 ```
 
 - Kiểm tra để chắc chắn rằng user `nova` có thể login được vào node compute còn lại mà không cần sử dụng password
@@ -295,7 +293,7 @@ block_migration_flag=VIR_MIGRATE_UNDEFINE_SOURCE, VIR_MIGRATE_PEER2PEER, VIR_MIG
 
 Máy ảo sẽ chuyển sang trạng thái `MIGRATING`.
 
-<img src="../images/migrate4.png">
+<img src="/images/migrate4.png">
 
 Sau một khoảng thời gian, máy ảo sẽ được migrate sang node compute mới.
 
