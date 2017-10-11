@@ -90,6 +90,8 @@
 -	[Cinder với backend là GlusterFS](./docs/05.Cinder/cinder-glusterfs.md)
 - [Hướng dẫn cấu hình multiple Cinder và thực hiện tính năng migrate volume](./docs/05.Cinder/cinder.md)
 
+--------------
+
 ### II. Tài liệu nâng cao
 
 #### Metadata
